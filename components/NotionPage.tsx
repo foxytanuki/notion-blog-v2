@@ -136,7 +136,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
   //   block
   // )
   const socialImage =
-    'https://github.com/foxytanuki/notion-blog/blob/main/public/og_image.png'
+    'https://github.com/foxytanuki/notion-blog/blob/main/public/og_image.png?raw=true'
 
   const socialDescription =
     getPageDescription(block, recordMap) ?? config.description
