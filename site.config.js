@@ -12,7 +12,7 @@ module.exports = {
   author: 'foxytanuki',
 
   // open graph metadata (optional)
-  description: 'Hey, is it a fox or a tanuki? - Probably it\'s a foxytanuki.',
+  description: 'foxytanuki\'s personal website',
   socialImageTitle: 'tanukituné',
   socialImageSubtitle: '🦊',
 
