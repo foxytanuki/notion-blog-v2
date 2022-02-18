@@ -7,7 +7,7 @@ import { useRouter } from 'next/router'
 import { useSearchParam } from 'react-use'
 import BodyClassName from 'react-body-classname'
 import useDarkMode from 'use-dark-mode'
-import { PageBlock } from 'notion-types'
+// import { PageBlock } from 'notion-types'
 
 import { Tweet, TwitterContextProvider } from 'react-static-tweets'
 
@@ -131,10 +131,12 @@ export const NotionPage: React.FC<types.PageProps> = ({
   const showTableOfContents = !!isBlogPost
   const minTableOfContentsItems = 3
 
-  const socialImage = mapNotionImageUrl(
-    (block as PageBlock).format?.page_cover || config.defaultPageCover,
-    block
-  )
+  // const socialImage = mapNotionImageUrl(
+  //   (block as PageBlock).format?.page_cover || config.defaultPageCover,
+  //   block
+  // )
+  const socialImage =
+    'https://github.com/foxytanuki/notion-blog/blob/main/public/og_image.png'
 
   const socialDescription =
     getPageDescription(block, recordMap) ?? config.description
